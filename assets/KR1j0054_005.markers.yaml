@@ -4950,6 +4950,7 @@ markers:
   - {type: punctuation, offset: 8281, content: (, id: KR1j0054_krp_005-bkkpn3221}
   - {type: variant, offset: 8281, length: 1, content: 說, SBCK: 􅀃}
   - {type: substitution, offset: 8281, original: 說, replacement: 説, reason: scribal-variant-collapsed, mapping: {identifier: 'bkk:mapping/variant-fold-v1', hash: 'sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20', entry: vf-19811}}
+  - {type: 'voice:problem', offset: 8281, length: 0, id: KR1j0054_bkk_005-bkkvprob1, source: parens, bucket: front, code: unmatched-open, message: unmatched '(' at offset 8281}
   - {type: substitution, offset: 8288, original: 䰍, replacement: 髹, reason: scribal-variant-collapsed, mapping: {identifier: 'bkk:mapping/variant-fold-v1', hash: 'sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20', entry: vf-10855}}
   - {type: substitution, offset: 8290, original: 从, replacement: 從, reason: scribal-variant-collapsed, mapping: {identifier: 'bkk:mapping/variant-fold-v1', hash: 'sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20', entry: vf-16212}}
   - {type: punctuation, offset: 8293, content: /, id: KR1j0054_krp_005-bkkpn3222}
@@ -4968,6 +4969,7 @@ markers:
   - {type: line-break, offset: 0, content: '', id: KR1j0054_SBCK_005-14b06}
   - {type: indent, offset: 0, content: 　, id: KR1j0054_krp_005-bkkind1}
   - {type: substitution, offset: 0, original: 㯃, replacement: 漆, reason: scribal-variant-collapsed, mapping: {identifier: 'bkk:mapping/variant-fold-v1', hash: 'sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20', entry: vf-19752}}
+  - {type: 'voice:problem', offset: 0, length: 0, id: KR1j0054_bkk_005-bkkvprob2, source: parens, bucket: body, code: stray-close, message: unexpected ')' at offset 0 with no matching '('}
   - {type: punctuation, offset: 1, content: (, id: KR1j0054_krp_005-bkkpn2}
   - {type: punctuation, offset: 3, content: /, id: KR1j0054_krp_005-bkkpn3}
   - {type: punctuation, offset: 5, content: ), id: KR1j0054_krp_005-bkkpn4}
@@ -23716,4 +23718,4 @@ markers:
 
       ', id: KR1j0054_krp_005-bkkkrnewl981}
   back: []
-hash: sha256:6b0985b74a7bae24d58632d11c70b51c562c4b1b6ebb673a46cccf2ee8094639
+hash: sha256:c8e1752670a809c0f6e65408c87d2aa5fd418f0a30e4c18476c5de0c81109e6a
